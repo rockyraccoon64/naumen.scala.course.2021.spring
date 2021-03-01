@@ -1,0 +1,20 @@
+[debug] > Exec(~run, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\norwe\YandexDisk\sch\8 семестр\Scala\Idea\SbtExampleProject\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\norwe\YandexDisk\sch\8 семестр\Scala\Idea\SbtExampleProject\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 1 s, completed 1 мар. 2021 г., 15:59:17
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(__postWatch console0, None, None)
+[debug] > Exec(__waitWatch console0, None, None)
