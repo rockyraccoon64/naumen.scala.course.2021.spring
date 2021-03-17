@@ -1,7 +1,5 @@
 package homework_3
 
-import scala.runtime.Nothing$
-
 object Exercises {
 
     /**
