@@ -43,4 +43,4 @@
 <br>где i - индекс одномерного списка, ix - индекс колонки двумерного списка, iy - индекс строки двумерного списка, 
 <br>w - ширина (количество колонок) двумерного списка.
 <br>
-<br>Необходимо, чтобы реализация успешно проходила юнит-тесты <a href='https://github.com/naumen-student/naumen.scala.course.2020.autumn/tree/master/homeworks/homework_4/src/test/scala'>(src/test/scala/Test.scala)</a>
+<br>Необходимо, чтобы реализация успешно проходила юнит-тесты <a href='https://github.com/naumen-student/naumen.scala.course.2021.spring/tree/master/homeworks/homework_4/src/test/scala'>(src/test/scala/Test.scala)</a>
