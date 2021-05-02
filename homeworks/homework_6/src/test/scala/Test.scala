@@ -7,6 +7,8 @@ object Test extends TestSuite{
     'reverse - {
       assert(Exercises.reverse(Seq(1, 2, 3)) == Seq(3, 2, 1))
       assert(Exercises.reverse(Seq(-1, -2, -3)) == Seq(-3, -2, -1))
+      assert(Exercises.reverse(Seq()) == Seq())
+      assert(Exercises.reverse(Seq(1)) == Seq(1))
     }
 
     'fibonacci4Index - {
@@ -21,7 +23,9 @@ object Test extends TestSuite{
 
     'morse - {
       assert(Exercises.morse("SOS") == "... --- ...")
-      assert(Exercises.morse("Hello world!") == ".... . .-.. .-.. ---   .-- --- .-. .-.. -..!")
+
+      // Добавил пробел перед восклицательным знаком, т.к. указанный результат не совпадает с постановкой задания
+      assert(Exercises.morse("Hello world!") == ".... . .-.. .-.. ---   .-- --- .-. .-.. -.. !")
     }
 
     'wordReverse - {
