@@ -1,0 +1,27 @@
+C:\folder>scala
+Welcome to Scala 2.12.10 (OpenJDK 64-Bit Server VM, Java 11.0.10).
+Type in expressions for evaluation. Or try :help.
+
+scala> def greet(greeting: String, name: String) = println(greeting + " Scala! This is " + name)
+greet: (greeting: String, name: String)Unit
+
+scala> var name = "Andrey Salo"
+name: String = Andrey Salo
+
+scala> val greetings = Array("Hello", "Hola", "Guten Tag")
+greetings: Array[String] = Array(Hello, Hola, Guten Tag)
+
+scala> greetings.foreach(g => greet(g, name))
+Hello Scala! This is Andrey Salo
+Hola Scala! This is Andrey Salo
+Guten Tag Scala! This is Andrey Salo
+
+scala> name = name.reverse
+name: String = olaS yerdnA
+
+scala> greetings.foreach(g => greet(g, name))
+Hello Scala! This is olaS yerdnA
+Hola Scala! This is olaS yerdnA
+Guten Tag Scala! This is olaS yerdnA
+
+scala>
